@@ -51,7 +51,6 @@ app.get('/enrollments', (req, res) => {
     });
 });
 
-
 // GET / students/:id -- returns 1 student by ID
 app.get('/students/:id', (req, res) => {
   const { id } = req.params;
